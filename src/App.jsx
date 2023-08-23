@@ -8,8 +8,8 @@ function App() {
   });
 
   return (
-    <div className='flex items-center justify-center h-screen bg-gray-900'>
-      <animated.div style={fadeIn} className='text-center'>
+    <div className='flex items-center justify-center min-h-screen bg-gray-900'>
+      <animated.div style={fadeIn} className='text-center px-2'>
         <h1 className='text-4xl text-white font-semibold mb-4'>Coming Soon</h1>
         <p className='text-lg text-gray-300'>We are working on something exciting. Stay tuned!</p>
         <div className='mt-6'>
